@@ -11,11 +11,6 @@ class CashRegister
     self.total += price * quantity
   end
   
-  def apply_discount(total, discount)
-    if self.discount.count? {|discount| 
-      discount = 200 
-    else 
-      total 
-  end
+  
   
 end
